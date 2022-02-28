@@ -12,5 +12,26 @@ cuddly-slider:
   dependencies:
     - core/jquery
 
+dmta_library:
+  js:
+    js/dmta_library.js: {}
+  dependencies:
+    - core/jquery
+    - dmta_module/dmta_library
+    - dmta_theme/dmta_library
+    # dmtadrupaltheme.libraries.yml (multiple libraries can be added to a libraries.yml file, these would appear below the cuddly-slider libraries added earlier)
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/layout.css: {}
+      css/style.css: {}
+      css/colors.css: {}
+global-scripts:
+  version: 1.x
+  js: 
+    js/navmenu.js: {}  
+
+
 
 

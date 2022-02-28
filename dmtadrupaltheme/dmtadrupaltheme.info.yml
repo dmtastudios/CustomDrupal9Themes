@@ -4,6 +4,8 @@ description: 'A DMTA Studios custom Drupal 9 theme.'
 core_version_requirement: 8^ || 9^
 libraries: 
   - dmtadrupaltheme/global-styling
+  - dmtadrupaltheme/global-scripts
+
 base theme: classy
 regions: 
   header: 'Header'
@@ -19,3 +21,10 @@ regions:
   breadcrumb: 'Breadcrumb'
   help: 'Help'
   footer: 'Footer'
+features: 
+    - comment_user_verification
+    - comment_user_picture
+    - favicon
+    - logo
+    - node_user_picture
+  
