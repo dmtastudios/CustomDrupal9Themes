@@ -1,0 +1,12 @@
+name: dmtadrupaltheme
+type: theme
+description: 'A DMTA Studios custom Drupal 9 theme.'
+core_version_requirement: 8^ || 9^
+libraries: -fluffiness/global-styling
+base theme: classy
+regions: 
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
