@@ -1,0 +1,16 @@
+# dmtadrupaltheme.libraries.yml
+
+cuddly-slider:
+  version: 1.x
+
+  css:
+    theme:
+      css/cuddly-slider.css: {}
+
+  js:
+    js/cuddly-slider.js: {}
+  dependencies:
+    - core/jquery
+
+
+
